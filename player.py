@@ -11,7 +11,7 @@ from PyQt5 import QtWidgets, uic
 
 window = uic.loadUiType("window.ui")[0]
 
-# path = "/home/night/Music"
+path = "/home/night/Music"
 pattern = "*.mp3"
 
 mixer.init()
