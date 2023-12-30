@@ -79,7 +79,7 @@ border-color: #393939;</string>
    <widget class="QPushButton" name="PauseButton">
     <property name="geometry">
      <rect>
-      <x>210</x>
+      <x>200</x>
       <y>350</y>
       <width>50</width>
       <height>50</height>
@@ -115,7 +115,7 @@ alternate-background-color: #303030;</string>
    <widget class="QPushButton" name="PrevButton">
     <property name="geometry">
      <rect>
-      <x>150</x>
+      <x>130</x>
       <y>290</y>
       <width>50</width>
       <height>50</height>
@@ -151,7 +151,7 @@ alternate-background-color: #303030;</string>
    <widget class="QPushButton" name="NextButton">
     <property name="geometry">
      <rect>
-      <x>210</x>
+      <x>200</x>
       <y>290</y>
       <width>50</width>
       <height>50</height>
@@ -275,7 +275,7 @@ alternate-background-color: #303030;</string>
    <widget class="QPushButton" name="PlayButton">
     <property name="geometry">
      <rect>
-      <x>150</x>
+      <x>130</x>
       <y>350</y>
       <width>50</width>
       <height>50</height>
