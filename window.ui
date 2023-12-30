@@ -30,7 +30,7 @@
    </font>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Music Player</string>
   </property>
   <property name="styleSheet">
    <string notr="true">color: rgb(255, 255, 255);
@@ -41,9 +41,9 @@ background-color: rgb(48, 48, 48);
    <widget class="QProgressBar" name="progressBar">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>420</y>
-      <width>331</width>
+      <x>10</x>
+      <y>410</y>
+      <width>361</width>
       <height>7</height>
      </rect>
     </property>
