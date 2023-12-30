@@ -31,7 +31,7 @@ class MyClass(QtWidgets.QMainWindow, window):
         self.PrevButton.clicked.connect(self.prev_track)
         self.PlayButton.clicked.connect(self.play)
         self.StartButton.clicked.connect(self.select)
-        self.openFolderButton.clicked.connect(self.select_music_folder(self))
+        # self.openFolderButton.clicked.connect(self.select_music_folder(self))
 
         with open("style.qss", "r") as file:
             style_sheet = file.read()
@@ -105,6 +105,8 @@ class MyClass(QtWidgets.QMainWindow, window):
         mixer.music.load(path + "/" + prev_track_title)
         mixer.music.play()
 
+
+"""
     def select_music_folder(self):
         global path
         path = filedialog.askdirectory()
@@ -115,7 +117,7 @@ class MyClass(QtWidgets.QMainWindow, window):
         ) in os.walk(path):
             for filename in fnmatch.filter(files, pattern):
                 self.listTrack.addItem(filename)
-
+"""
 
 app = QtWidgets.QApplication(sys.argv)
 myWin = MyClass()
