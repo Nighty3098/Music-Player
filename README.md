@@ -9,7 +9,7 @@
 </div>
 
 <div id="social" align=center>
-    <img src="https://invidget.switchblade.xyz/r8jWX8ugDd" style="border-radius: 15px;"/><br>
+    <a href="https://discord.gg/tnHSEc2cZv"><img src="https://invidget.switchblade.xyz/r8jWX8ugDd" style="border-radius: 15px;"/></a><br><br>
 </div>
 
 <div class="content" align="center">
